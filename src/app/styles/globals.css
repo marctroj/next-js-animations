@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'GT-Super-Display-Light';
+  src: url(../fonts/GT-Super-Display-Light-Trial.otf);
+}
+
+@font-face {
+  font-family: 'MarlideDisplay_Medium';
+  src: url(../fonts/MarlideDisplay_Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'MarlideDisplay_Medium';
+}

@@ -1,0 +1,23 @@
+.main__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mask {
+  overflow: hidden;
+}
+
+.title {
+  font-family: 'GT-Super-Display-Light';
+  font-size: clamp(40px, 7vw, 8vw);
+  transform: translateY(100%);
+  animation: reveal 1s cubic-bezier(0.23, 1, 0.320, 1) 0.5s forwards;
+}
+
+@keyframes reveal {
+  to {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,27 @@
+.main__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 25px;
+}
+
+.mask {
+  overflow: hidden;
+}
+
+.subtitle {
+  font-family: 'GT-Super-Display-Light';
+  font-size: clamp(24px, 4vw, 5vw);
+  text-align: left;
+}
+
+.char {
+  opacity: 0;
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+  }
+}
